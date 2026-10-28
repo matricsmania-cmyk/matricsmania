@@ -1,5 +1,0 @@
-{
-    "terminal.integrated.windowsUseConptyDll": true,
-    "terminal.integrated.enableImages": true,
-    "terminal.integrated.gpuAcceleration": "auto"
-}
