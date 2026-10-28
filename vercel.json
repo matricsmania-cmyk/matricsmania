@@ -1,0 +1,52 @@
+{
+  "rewrites": [
+    {
+      "source": "/search-engine-optimisation",
+      "destination": "/search-engine-optimisation.html"
+    },
+    {
+      "source": "/social-media-marketing",
+      "destination": "/social-media-marketing.html"
+    },
+    {
+      "source": "/website-development",
+      "destination": "/website-development.html"
+    },
+    {
+      "source": "/meta-ads",
+      "destination": "/meta-ads.html"
+    },
+    {
+      "source": "/google-ads",
+      "destination": "/google-ads.html"
+    },
+    {
+      "source": "/performance-marketing",
+      "destination": "/performance-marketing.html"
+    },
+    {
+      "source": "/seo-agency-in-varanasi",
+      "destination": "/seo-agency-in-varanasi.html"
+    },
+    {
+      "source": "/social-media-marketing-agency-in-varanasi",
+      "destination": "/social-media-marketing-agency-in-varanasi.html"
+    },
+    {
+      "source": "/website-development-company-in-varanasi",
+      "destination": "/website-development-company-in-varanasi.html"
+    },
+    {
+      "source": "/meta-ads-company-in-varanasi",
+      "destination": "/meta-ads-company-in-varanasi.html"
+    },
+    {
+      "source": "/google-ads-agency-in-varanasi",
+      "destination": "/google-ads-agency-in-varanasi.html"
+    },
+    {
+      "source": "/performance-marketing-agency-in-varanasi",
+      "destination": "/performance-marketing-agency-in-varanasi.html"
+    }
+  ]
+}
