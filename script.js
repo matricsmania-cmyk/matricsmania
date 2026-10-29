@@ -38,7 +38,7 @@ if (window.location.protocol === "file:") {
     "seo-agency-in-varanasi",
     "social-media-marketing-agency-in-varanasi",
     "website-development-company-in-varanasi",
-    "meta-ads-company-in-varanasi",
+    "meta-ads-agency-in-varanasi",
     "google-ads-agency-in-varanasi",
     "performance-marketing-agency-in-varanasi"
   ];

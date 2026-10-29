@@ -1,4 +1,5 @@
 RewriteEngine On
 
+RewriteRule ^meta-ads-company-in-varanasi(?:\.html)?/?$ /meta-ads-agency-in-varanasi [R=301,L]
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(search-engine-optimisation|social-media-marketing|website-development|meta-ads|google-ads|performance-marketing|seo-agency-in-varanasi|social-media-marketing-agency-in-varanasi|website-development-company-in-varanasi|meta-ads-company-in-varanasi|google-ads-agency-in-varanasi|performance-marketing-agency-in-varanasi)/?$ $1.html [L]
+RewriteRule ^(search-engine-optimisation|social-media-marketing|website-development|meta-ads|google-ads|performance-marketing|seo-agency-in-varanasi|social-media-marketing-agency-in-varanasi|website-development-company-in-varanasi|meta-ads-agency-in-varanasi|google-ads-agency-in-varanasi|performance-marketing-agency-in-varanasi)/?$ $1.html [L]

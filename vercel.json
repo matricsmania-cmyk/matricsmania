@@ -37,8 +37,8 @@
       "destination": "/website-development-company-in-varanasi.html"
     },
     {
-      "source": "/meta-ads-company-in-varanasi",
-      "destination": "/meta-ads-company-in-varanasi.html"
+      "source": "/meta-ads-agency-in-varanasi",
+      "destination": "/meta-ads-agency-in-varanasi.html"
     },
     {
       "source": "/google-ads-agency-in-varanasi",
@@ -47,6 +47,18 @@
     {
       "source": "/performance-marketing-agency-in-varanasi",
       "destination": "/performance-marketing-agency-in-varanasi.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/meta-ads-company-in-varanasi",
+      "destination": "/meta-ads-agency-in-varanasi",
+      "permanent": true
+    },
+    {
+      "source": "/meta-ads-company-in-varanasi.html",
+      "destination": "/meta-ads-agency-in-varanasi",
+      "permanent": true
     }
   ]
 }
