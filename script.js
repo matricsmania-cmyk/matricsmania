@@ -40,7 +40,8 @@ if (window.location.protocol === "file:") {
     "website-development-company-in-varanasi",
     "meta-ads-agency-in-varanasi",
     "google-ads-agency-in-varanasi",
-    "performance-marketing-agency-in-varanasi"
+    "performance-marketing-agency-in-varanasi",
+    "digital-marketing-agency-in-varanasi"
   ];
 
   document.querySelectorAll('a[href^="/"]').forEach((link) => {
