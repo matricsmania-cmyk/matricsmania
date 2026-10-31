@@ -284,6 +284,7 @@ h1, h2, h3 { font-family: var(--font-display); }
 .page-hero-inner > p:not(.eyebrow) { position: relative; z-index: 1; max-width: 550px; margin-bottom: 24px; color: #b3b3c9; font-size: 14px; line-height: 1.75; }
 .breadcrumb { position: relative; z-index: 1; display: flex; align-items: center; gap: 10px; color: #9e9fb6; font-size: 10px; }
 .breadcrumb a { color: #d5c6ff; }
+.digital-marketing-hero .breadcrumb { margin-top: 20px; }
 .page-hero-orb { position: absolute; z-index: -1; display: block; width: 320px; height: 320px; border: 1px solid rgba(159,109,255,.24); border-radius: 50%; }
 .page-hero-orb-one { top: 50px; right: 11%; box-shadow: 0 0 0 35px rgba(114,67,214,.06), 0 0 0 70px rgba(114,67,214,.04); }
 .page-hero-orb-two { top: 130px; right: 23%; width: 120px; height: 120px; border-color: rgba(36,159,235,.26); background: radial-gradient(circle,rgba(81,58,177,.25),transparent 70%); }
@@ -314,6 +315,29 @@ h1, h2, h3 { font-family: var(--font-display); }
 
 .services-intro { padding-bottom: 62px; }
 .services-intro .intro-content > p:not(.lead) { margin-bottom: 0; color: var(--muted); font-size: 12px; line-height: 1.8; }
+.digital-marketing-intro { position: relative; isolation: isolate; overflow: hidden; background: radial-gradient(ellipse at 91% 13%, rgba(116,66,235,.11), transparent 33%), var(--surface-alt); }
+.digital-intro-card { display: grid; grid-template-columns: minmax(0, .86fr) minmax(0, 1.14fr); overflow: hidden; border: 1px solid var(--line); border-radius: 27px; background: var(--surface); box-shadow: 0 25px 70px rgba(35,25,82,.09); }
+.digital-intro-heading { position: relative; isolation: isolate; display: flex; min-height: 550px; flex-direction: column; align-items: flex-start; justify-content: space-between; overflow: hidden; padding: clamp(30px, 4vw, 52px); color: white; background: linear-gradient(145deg, #12152f, #241747 63%, #173d69); }
+.digital-intro-heading::before { position: absolute; z-index: -1; inset: 0; background: radial-gradient(circle at 100% 0%, rgba(135,91,255,.25), transparent 42%); content: ""; }
+.digital-intro-heading .eyebrow { position: relative; z-index: 1; margin-bottom: 38px; color: #b6b3d2; }
+.digital-intro-heading h2 { position: relative; z-index: 1; margin: auto 0; font-size: clamp(35px, 4vw, 51px); letter-spacing: -.065em; line-height: 1.08; }
+.digital-intro-heading h2 span { color: #a986ff; }
+.digital-intro-experience { position: relative; z-index: 1; display: flex; width: 100%; align-items: center; gap: 16px; margin-top: 40px; padding: 18px 19px; border: 1px solid rgba(255,255,255,.18); border-radius: 15px; background: rgba(255,255,255,.075); backdrop-filter: blur(8px); }
+.digital-intro-experience-number { color: white; font: 800 43px/.9 var(--font-display); letter-spacing: -.07em; }
+.digital-intro-experience-number span { color: #78caff; font-size: .62em; vertical-align: top; }
+.digital-intro-experience-copy { display: grid; gap: 5px; }
+.digital-intro-experience-copy strong { color: white; font: 700 12px var(--font-display); }
+.digital-intro-experience-copy small { color: #c1bfd6; font-size: 10px; line-height: 1.5; }
+.digital-intro-experience-mark { margin-left: auto; color: #a98aff; font-size: 18px; }
+.digital-intro-orbit { position: absolute; z-index: -1; width: 260px; height: 260px; border: 1px solid rgba(177,148,255,.16); border-radius: 50%; pointer-events: none; }
+.digital-intro-orbit-one { top: 20%; right: -135px; box-shadow: 0 0 0 25px rgba(177,148,255,.035), 0 0 0 54px rgba(177,148,255,.025); }
+.digital-intro-orbit-two { right: 12%; bottom: -218px; width: 200px; height: 200px; border-color: rgba(85,195,255,.22); }
+.digital-intro-copy { align-self: center; padding: clamp(30px, 4.5vw, 58px); }
+.digital-intro-copy p { margin-bottom: 19px; color: var(--muted); font-size: 14px; line-height: 1.85; }
+.digital-intro-copy .digital-intro-lead { color: var(--ink); font-size: 16px; line-height: 1.85; }
+.digital-intro-copy strong { color: var(--ink); font-weight: 700; }
+.digital-intro-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 27px; padding-top: 20px; border-top: 1px solid var(--line); }
+.digital-intro-tags span { padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); background: var(--surface-alt); font-size: 10px; font-weight: 600; }
 .professional-web-services { position: relative; isolation: isolate; overflow: hidden; background: radial-gradient(ellipse at 2% 5%, rgba(116,66,224,.08), transparent 33%), var(--surface-alt); }
 .professional-web-services-heading { display: grid; grid-template-columns: 1.15fr .85fr; align-items: center; gap: 52px; margin-bottom: 42px; }
 .professional-web-services-copy { max-width: 720px; }
@@ -483,6 +507,10 @@ h1, h2, h3 { font-family: var(--font-display); }
   .seo-growth-card { grid-template-columns: 1fr; gap: 35px; }
   .seo-growth-visual { min-height: 0; }
   .seo-growth-visual h3 { max-width: 440px; }
+  .digital-intro-card { grid-template-columns: 1fr; }
+  .digital-intro-heading { min-height: 405px; }
+  .digital-intro-heading h2 { max-width: 650px; }
+  .digital-intro-copy { padding: 40px; }
   .seo-growth-focus-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .seo-growth-focus-list li { grid-template-columns: 1fr 16px; align-content: start; gap: 10px; }
   .seo-growth-focus-list li > span { grid-column: 1 / -1; }
@@ -519,6 +547,16 @@ h1, h2, h3 { font-family: var(--font-display); }
   .intro-grid, .insight-grid, .story-grid, .blog-feature, .contact-grid { grid-template-columns: 1fr; gap: 31px; }
   .intro-grid { align-items: start; }
   .section h2, .insight-section h2 { font-size: clamp(37px,9vw,50px); }
+  .digital-intro-card { border-radius: 21px; }
+  .digital-intro-heading { min-height: 0; gap: 28px; padding: 29px 24px; }
+  .digital-intro-heading .eyebrow { margin-bottom: 0; }
+  .digital-intro-heading h2 { margin: 0; font-size: clamp(35px, 9vw, 46px); }
+  .digital-intro-experience { margin-top: 0; padding: 15px; }
+  .digital-intro-copy { padding: 28px 24px; }
+  .digital-intro-copy p { font-size: 13px; }
+  .digital-intro-copy .digital-intro-lead { font-size: 15px; }
+  .digital-intro-tags { gap: 7px; }
+  .digital-intro-tags span { padding: 7px 10px; }
   .seo-growth-card { gap: 28px; padding: 26px 21px; border-radius: 22px; }
   .seo-growth-copy h2 { font-size: clamp(33px, 8.5vw, 43px); }
   .seo-growth-visual { padding: 24px 20px; }
